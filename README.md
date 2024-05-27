@@ -153,6 +153,246 @@ EOF  all  create  destroy  help  quit  show  update
 ## Bugs
 No known bugs at this time. 
 
+<br>
+
+# 0x05. AirBnB clone - RESTful API
+
+This project focuses on building a RESTful API for an AirBnB clone using Python and Flask. 
+
+## Concepts
+
+For this project, we expect you to look at these concepts:
+
+<details>
+  <summary><a href="#airBnB-clone"><strong>REST API</strong></a></summary><br>
+
+  <!-- Image 1 -->
+  <div align="center">
+    <a href='https://postimages.org/' target='_blank'>
+      <img src='https://i.postimg.cc/2Sr0TJgw/image1.png' border='0' alt='image' style="max-width: 100%;">
+    </a>
+  </div>
+
+  <!-- Image 2 -->
+  <div align="center">
+    <a href='https://postimages.org/' target='_blank'>
+      <img src='https://i.postimg.cc/qRhwzdCk/image2.png' border='0' alt='image' style="max-width: 100%;">
+    </a>
+  </div>
+
+  <!-- Image 3 -->
+  <div align="center">
+    <a href='https://postimages.org/' target='_blank'>
+      <img src='https://i.postimg.cc/B6rgFwx2/image3.png' border='0' alt='image' style="max-width: 100%;">
+    </a>
+  </div>
+
+  <!-- Image 4 -->
+  <div align="center">
+    <a href='https://postimages.org/' target='_blank'>
+      <img src='https://i.postimg.cc/bvv3fnyS/image4.png' border='0' alt='image' style="max-width: 100%;">
+    </a>
+  </div>
+</details>
+
+
+<details>
+  <summary><a href="#airBnB-clone"><strong>AirBnB clone</strong></a></summary><br>
+
+  <!-- Image 1 -->
+  <div align="center">
+    <a href='https://postimages.org/' target='_blank'>
+      <img src='https://i.postimg.cc/RZZq7hX2/Air-Bn-B-clone-image1.png' border='0' alt='image' style="max-width: 100%;">
+    </a>
+  </div>
+
+  <!-- Image 2 -->
+  <div align="center">
+    <a href='https://postimages.org/' target='_blank'>
+      <img src='https://i.postimg.cc/y8pxvKGx/Air-Bn-B-clone-image2.png' border='0' alt='image' style="max-width: 100%;">
+    </a>
+  </div>
+
+  <!-- Image 3 -->
+  <div align="center">
+    <figure>
+      <a href='https://postimages.org/' target='_blank'>
+        <img src='https://i.postimg.cc/50JrysdV/Air-Bn-B-clone-image3.png' border='0' alt='image' style="max-width: 100%;">
+      </a>
+      <figcaption>Step 1: The console</figcaption>
+    </figure>
+  </div>
+
+  <!-- Image 4 -->
+  <div align="center">
+    <figure>
+      <a href='https://postimages.org/' target='_blank'>
+        <img src='https://i.postimg.cc/K8wh56wr/Air-Bn-B-clone-image4.png' border='0' alt='image' style="max-width: 100%;">
+      </a>
+      <figcaption>Step 2: Web static</figcaption>
+    </figure>
+  </div>
+
+  <!-- Image 5 -->
+  <div align="center">
+    <figure>
+      <a href='https://postimages.org/' target='_blank'>
+        <img src='https://i.postimg.cc/JzGWZr6z/Air-Bn-B-clone-image5.png' border='0' alt='image' style="max-width: 100%;">
+      </a>
+      <figcaption>Step 3: MySQL storage</figcaption>
+    </figure>
+  </div>
+
+  <!-- Image 6 -->
+  <div>
+    <figure>
+      <a href='https://postimages.org/' target='_blank'>
+        <img src='https://i.postimg.cc/KzyX6nZ1/Air-Bn-B-clone-image6.png' border='0' alt='image' style="max-width: 100%;">
+      </a>
+      <figcaption>Step 4: Web framework - templating</figcaption>
+    </figure>
+  </div>
+
+  <!-- Image 7 -->
+  <div align="center">
+    <figure>
+      <a href='https://postimages.org/' target='_blank'>
+        <img src='https://i.postimg.cc/FKS5CPQt/Air-Bn-B-clone-image7.png' border='0' alt='image' style="max-width: 100%;">
+      </a>
+      <figcaption>Step 5: RESTful API</figcaption>
+    </figure>
+  </div>
+
+  <!-- Image 8 -->
+  <div align="center">
+    <figure>
+      <a href='https://postimages.org/' target='_blank'>
+        <img src='https://i.postimg.cc/Pr6jCpM7/Air-Bn-B-clone-image8.png' border='0' alt='image' style="max-width: 100%;">
+      </a>
+      <figcaption>Step 6: Web dynamic</figcaption>
+    </figure>
+  </div>
+
+  <!-- Image 9 -->
+  <div align="center">
+    <a href='https://postimages.org/' target='_blank'>
+      <img src='https://i.postimg.cc/4dHf1cz8/Air-Bn-B-clone-image9.png' border='0' alt='image' style="max-width: 100%;">
+    </a>
+  </div>
+
+  <!-- Image 10 -->
+  <div align="center">
+    <a href='https://postimages.org/' target='_blank'>
+      <img src='https://i.postimg.cc/7hvxtL9q/Air-Bn-B-clone-image10.png' border='0' alt='image' style="max-width: 100%;">
+    </a>
+  </div>
+
+  <!-- Image 11 -->
+  <div align="center">
+    <a href='https://postimages.org/' target='_blank'>
+      <img src='https://i.postimg.cc/FzjhMQC3/Air-Bn-B-clone-image11.png' border='0' alt='image' style="max-width: 100%;">
+    </a>
+  </div>
+
+  <!-- Image 12 -->
+  <div align="center">
+    <a href='https://postimages.org/' target='_blank'>
+      <img src='https://i.postimg.cc/tgMRPkVZ/Air-Bn-B-clone-image12.png' border='0' alt='image' style="max-width: 100%;">
+    </a>
+  </div>
+
+  <!-- Image 13 -->
+  <div align="center">
+    <a href='https://postimages.org/' target='_blank'>
+      <img src='https://i.postimg.cc/PfZfpmfJ/Air-Bn-B-clone-image13.png' border='0' alt='image' style="max-width: 100%;">
+    </a>
+  </div>
+
+  <!-- Links for Screenshot -->
+  <ul>
+    <li><strong>Links from screenshot</strong>
+      <ul>
+        <li><a href="https://www.airbnb.com/" title="AirBnB website">AirBnB website</a></li>
+        <li><a href="https://docs.python.org/3.4/library/unittest.html#module-unittest" title="Unittest">Unittest</a></li>
+        <li><a href="https://strftime.org/" title="How to make it readable: strftime">How to make it readable: strftime</a></li>
+      </ul>
+    </li>
+  </ul>
+</details>
+
+## Resources
+
+**Read or watch:**
+
+* **REST API** concept page
+* [Learn REST: A RESTful Tutorial](https://www.restapitutorial.com/)
+* [Designing a RESTful API with Python and Flask](https://blog.miguelgrinberg.com/post/designing-a-restful-api-with-python-and-flask)
+* [HTTP access control (CORS)](https://developer.mozilla.org/en-US/docs/Web/HTTP/CORS)
+* [Flask cheatsheet](https://s3.amazonaws.com/intranet-projects-files/holbertonschool-higher-level_programming+/301/flask_cheatsheet.pdf)
+* [What are Flask Blueprints, exactly?](https://stackoverflow.com/questions/24420857/what-are-flask-blueprints-exactly)
+* [Flask](https://palletsprojects.com/p/flask/)
+* [Modular Applications with Blueprints](https://flask.palletsprojects.com/en/1.1.x/blueprints/)
+* [Flask tests](https://flask.palletsprojects.com/en/1.1.x/testing/)
+* [Flask-CORS](https://flask-cors.readthedocs.io/en/latest/)
+
+## Learning Objectives
+
+At the end of this project, you are expected to be able to [explain to anyone](https://fs.blog/feynman-learning-technique/), **without the help of Google:**
+
+### General
+
+* What REST means
+* What API means
+* What CORS means
+* What is an API
+* What is a REST API
+* What are other type of APIs
+* Which is the HTTP method to retrieve resource(s)
+* Which is the HTTP method to create a resource
+* Which is the HTTP method to update resource
+* Which is the HTTP method to delete resource
+* How to request REST API
+
+## Requirements
+
+### Python Scripts
+
+* Allowed editors: `vi`, `vim`, `emacs`
+* All your files will be interpreted/compiled on Ubuntu 20.04 LTS using `python3` (version 3.4.3)
+* All your files should end with a new line
+* The first line of all your files should be exactly` #!/usr/bin/python3`
+* A `README.md` file, at the root of the folder of the project, is mandatory
+* Your code should use the `PEP 8` style (version 1.7)
+* All your files must be executable
+* The length of your files will be tested using `wc`
+* All your modules should have documentation (`python3 -c 'print(__import__("my_module").__doc__)'`)
+* All your classes should have documentation (`python3 -c 'print(__import__("my_module").MyClass.__doc__)'`)
+* All your functions (inside and outside a class) should have documentation (`python3 -c 'print(__import__("my_module").my_function.__doc__)'` and `python3 -c 'print(__import__("my_module").MyClass.my_function.__doc__)'`)
+* A documentation is not a simple word, s a real sentence explaining s the purpose of the module, class or method (the length of it will be verified)
+
+### Python Unit Tests
+
+* Allowed editors: `vi`, `vim`, `emacs`
+* All your files should end with a new line
+* All your test files should be inside a folder `tests`
+* You have to use the [unittest module](https://docs.python.org/3.4/library/unittest.html#module-unittest)
+* All your test files should be python files (extension: `.py`)
+* All your test files and folders should start by `test_`
+* Your file organization in the tests folder should be the same as your project: ex: for `models/base_model.py`, unit tests must be in: `tests/test_models/test_base_model.py`
+* All your tests should be executed by using this command: `python3 -m unittest discover tests`
+* You can also test file by file by using this command: `python3 -m unittest tests/test_models/test_base_model.py`
+* We strongly encourage you to work together on test cases, so that you t miss any edge cases
+
+## More Info
+
+[![Screenshot-from-2024-05-27-19-18-56.png](https://i.postimg.cc/cJDJHrpn/Screenshot-from-2024-05-27-19-18-56.png)](https://postimg.cc/hJdnZPPD)
+
+### Install Flask
+
+```
+$ pip3 install Flask
+```
+
 ## Authors
 
 <details>
